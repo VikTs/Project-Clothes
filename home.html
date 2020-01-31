@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SH-HOME</title>
+    <meta name="description" content="Order the best shoes in SH">
+    <meta name="keywords" content="sh, floral plimsoll, shoes, men, women, kids, order">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">  
+    <link rel="shortcut icon" href="img/title.png" />
+</head>
+
+<body>
+
+<div class = "background">
+
+  <header>
+    <div class="logo">
+      <a href="home.html">SH</a>
+    </div>
+
+    <nav>
+      <ul id="Menu">
+        <li><a href="category.html">Women</a></li>
+        <li><a href="category.html">Men</a></li>
+        <li><a href="category.html">Kids</a></li>
+        <li><a href="category.html">Coming Soon</a></li>
+      </ul>
+    </nav>
+
+    <div id = "basket">
+      <a href="shopping.html">Basket (3)</a>
+      <img id="basket_img" alt="basket" src="img/basket.gif">    
+    </div>
+
+    <div id="search">
+      <input id = "search_input" type="search" name="search" placeholder="Search something..."> 
+      <button id = "submit_search"> <img alt="search" src="img/search.gif"> </button>
+    </div>
+  </header>
+
+  <section id="headline">
+    <h1>HAZY SHADE OF SPRING</h1>
+    <p>Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
+    <button id="check_arrivals">CHECK NEW ARRIVALS</button>
+  </section>
+
+  <section id="photoes">
+    <div class="Shoes_blok" >
+      <img alt="Silver shoes" height="295px" src="img/home/blocks/shoes1.jpg"/>
+    </div>
+
+    <div class="Shoes_blok" >
+      <img alt="Black shoes with camera" height="295px" src="img/home/blocks/shoes2.jpg"/>
+      <div class="text_img">
+        <h2> ELEGANT SHOES </h2>
+        <p> BRAIDED LEATHER</p>
+      </div>
+    </div>
+
+    <div class="Shoes_blok Less_height" >
+      <img alt="Rubber shoes" height="295px" src="img/home/blocks/shoes3.jpg"/>
+    </div>
+
+    <div class="Shoes_blok">
+      <img alt="Striped shoes" height="295px" src="img/home/blocks/shoes4.jpg"/>
+      <div class="text_img">
+        <h2> ELEGANT SHOES </h2>
+        <p> BRAIDED LEATHER</p>
+      </div>
+    </div>
+
+    <div class="Shoes_blok">
+      <img alt="White shoes with decoration" height="295px" src="img/home/blocks/shoes5.jpg"/>
+      <div class="text_img">
+        <h2> ELEGANT SHOES </h2>
+        <p> BRAIDED LEATHER</p>
+      </div>
+    </div>
+
+    <div class="Shoes_blok" >
+      <img alt="Red shoes with bow" height="295px" src="img/home/blocks/shoes6.jpg"/>
+    </div>
+
+    <div class="Shoes_blok Less_height">
+      <img alt="Shoes and bag" height="295px" src="img/home/blocks/shoes7.jpg"/>
+      <div class="text_img">
+        <h2> ELEGANT SHOES </h2>
+        <p> BRAIDED LEATHER</p>
+      </div>
+    </div>
+
+    <div class="Shoes_blok">
+      <img alt="White short shoes" height="295px" src="img/home/blocks/shoes8.jpg"/>
+      <div class="text_img">
+        <h2> ELEGANT SHOES </h2>
+        <p> BRAIDED LEATHER </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sign_up">
+    <h2>SIGN UP TO RECEIVE OUR UPDATES</h2>
+    <span>Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.</span>
+    <br/>
+    <form id="email">
+      <input id="email_input" type="email" name="email" title="Enter your email" pattern="^(.)+@(.)+\.(.){1,}$" placeholder="Your e-mail" oninvalid="this.setCustomValidity('Please enter valid e-mail')" oninput = "setCustomValidity('')" required>
+      <button id = "submit_email"> add </button>
+    </form>
+  </section>
+
+  <section id="carousel" class="carousel">
+      <button class="arrow prev"><img alt="to left" src="img/home/carousel/arrow_left.gif"></button>
+      <div class="gallery">
+        <ul class="images" id="images">
+          <li><img alt="Pink sneakers" src="img/home/carousel/carousel1.jpg"></li>
+          <li><img alt="Levis blue sneakers" src="img/home/carousel/carousel2.jpg"></li>
+          <li><img alt="Gold shoes with tape" src="img/home/carousel/carousel3.jpg"></li>
+          <li><img alt="Polka pink dots shoes" src="img/home/carousel/carousel4.jpg"></li>
+          <li><img alt="Brown sneakers" src="img/home/carousel/carousel5.jpg"></li>
+          <li><img alt="Silver shoes" src="img/home/carousel/carousel6.jpg"></li>
+          <li><img alt="Grey shoes" src="img/home/carousel/carousel7.jpg"></li>
+          <li><img alt="Grey sneakers" src="img/home/carousel/carousel8.jpg"></li>
+        </ul>
+      </div>
+      <button class="arrow next"><img alt="to right" src="img/home/carousel/arrow_right.gif"></button>
+  </section>
+
+  <footer>
+    <div class = "Footer">
+      <h3>COLLECTION</h3>
+      <a href="#">Woman</a>
+      <a href="#">Men</a>
+      <a href="#">Kids</a>
+      <a href="#">Coming soon</a>
+    </div>
+
+    <div class = "Footer">
+      <h3>SITE</h3>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Copyright Policy</a>
+      <a href="#">Press Kit</a>
+      <a href="#">Support</a>
+    </div>
+
+    <div class = "Footer">
+      <h3>SHOP</h3>
+      <a href="#">About us</a>
+      <a href="#">Shipping Methods</a>
+      <a href="#">Career</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class = "Footer">
+      <h3>SOCIAL</h3>
+      <p>Shoper is made with love in Warsaw, 2014 &#169; All rights reserved. EI Passion</p>
+      <div id = "socials_block">
+        <div class = "Socials"><img alt="tw" src="img/twitter.gif"/></div>
+        <div class = "Socials"><img alt="f" src="img/facebook.gif"/></div>
+        <div class = "Socials"><img alt="in" src="img/instagram.gif"/></div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+
+<script src="js/search.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/main.js"></script>
+
+</html>
+
+
+
+
+
+

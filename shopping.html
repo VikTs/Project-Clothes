@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SH-SHOPPING</title>
+    <meta name="description" content="Order the best shoes in SH">
+    <meta name="keywords" content="sh, floral plimsoll, shoes, men, women, kids, order">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"> 
+    <link rel="shortcut icon" href="img/title.png" /> 
+</head>
+
+<body>
+
+<div class = "background">
+
+  <header>
+    <div class="logo">
+      <a href="home.html">SH</a>
+    </div>
+
+    <nav>
+      <ul id="Menu">
+        <li><a href="category.html">Women</a></li>
+        <li><a href="category.html">Men</a></li>
+        <li><a href="category.html">Kids</a></li>
+        <li><a href="category.html">Coming Soon</a></li>
+      </ul>
+    </nav>
+
+    <div id = "basket">
+      <a href="shopping.html">Basket (3)</a>
+      <img id="basket_img" alt="basket" src="img/basket.gif">    
+    </div>
+
+    <div id="search">
+      <input id = "search_input" type="search" name="search" placeholder="Search something..."> 
+      <button id = "submit_search"> <img alt="search" src="img/search.gif"> </button>
+    </div>
+  </header>
+
+  <aside id = "breadcrumbs"> HOME / MEN / SHOES / FLORAL PLIMSOLL </aside>
+
+  <section id="headline_shopping">
+    <h2>YOUR SHOPPING BAG</h2>
+    <p>Items reserved for limited time only</p>
+  </section>
+
+  <section id="table_shopping">
+    <div id="table"></div>
+    <div id="Summ">
+      <p>1000$</p>
+      <p>Subtoral:&#160;</p>
+    </div>
+
+    <table>
+      <tr>
+        <th>PRODUCT</th>
+        <th>DESCRIPTION</th>
+        <th>COLOR</th>
+        <th>SIZE</th>
+        <th>QTY</th>
+        <th>AMOUNT</th>
+        <th>DELETE</th>
+      </tr>
+      
+      <tr id="subtoral">
+        <td colspan="5"><p id="subtoral_text">Subtoral:</p> </td>
+        <td colspan="2"><p id="subtoral_price">1000$</p> </td>
+      </tr>
+    </table>
+
+    <div id="order">
+      <button id="order_now" onclick="orderNow()">ORDER NOW</button>
+      <a href="home.html" id="continue">Continue Shopping</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class = "Footer">
+      <h3>COLLECTION</h3>
+      <a href="#">Woman</a>
+      <a href="#">Men</a>
+      <a href="#">Kids</a>
+      <a href="#">Coming soon</a>
+    </div>
+
+    <div class = "Footer">
+      <h3>SITE</h3>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Copyright Policy</a>
+      <a href="#">Press Kit</a>
+      <a href="#">Support</a>
+    </div>
+
+    <div class = "Footer">
+      <h3>SHOP</h3>
+      <a href="#">About us</a>
+      <a href="#">Shipping Methods</a>
+      <a href="#">Career</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class = "Footer">
+      <h3>SOCIAL</h3>
+      <p>Shoper is made with love in Warsaw, 2014 &#169; All rights reserved. EI Passion</p>
+      <div id = "socials_block">
+        <div class = "Socials"><img alt="tw" src="img/twitter.gif"/></div>
+        <div class = "Socials"><img alt="f" src="img/facebook.gif"/></div>
+        <div class = "Socials"><img alt="in" src="img/instagram.gif"/></div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+
+<script src="js/shopping.js"></script>
+<script src="js/search.js"></script>
+<script src="js/main.js"></script>
+
+</html>
+
+
+
+
+
+
